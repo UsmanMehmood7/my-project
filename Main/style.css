@@ -1,0 +1,193 @@
+.landing {
+  height: 100vh;
+  width: 100%;
+  background: url(./car2.jpg);
+  background-size: cover;
+}
+.nav {
+  display: flex;
+  padding-top: 15px;
+  margin-bottom: 15px;
+  color: aqua;
+  font-size: 20px;
+}
+.nav > .nav-item > a {
+  font-weight: 500;
+  font-family: "Oswald", sans-serif;
+  color: white;
+}
+.nav > .nav-item > a:hover {
+  color: coral;
+}
+.carousel {
+  height: 400px;
+  width: 40%;
+  right: auto;
+}
+.desc {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 115px;
+  margin-left: 35px;
+}
+.book_desc {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 240px;
+  margin-left: 35px;
+}
+.book_desc h1 {
+  font-family: "Roboto Mono", monospace;
+  color: black;
+  font-weight: 700;
+}
+
+.desc h1 {
+  font-family: "Roboto Mono", monospace;
+  color: white;
+  font-weight: 700;
+  font-size: 3.7rem;
+}
+desc h2 {
+  font-family: "Roboto Mono", monospace;
+  font-weight: 700;
+}
+.desc p {
+  font-family: "Oswald", sans-serif;
+  color: white;
+  font-size: 1.7rem;
+}
+.booking {
+  display: flex;
+  grid-template-columns: minmax(2);
+  background-image: url(./background.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  padding: 20px;
+  justify-content: space-between;
+  margin-top: 50px;
+  line-height: 40px;
+}
+.desc2 {
+  display: flex;
+  flex-direction: column;
+  margin-top: 80px;
+  padding-left: 50px;
+  max-width: 40rem;
+}
+.desc2 p,
+h1 {
+  color: aliceblue;
+}
+.c-img {
+  height: 400px;
+  width: 600px;
+}
+
+.mt-50 {
+  margin-top: 50px;
+}
+
+.mb-50 {
+  margin-bottom: 50px;
+}
+
+.card {
+  position: relative;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.1875rem;
+}
+
+.card-img-actions {
+  position: relative;
+}
+.card-body {
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  padding: 1.25rem;
+  text-align: center;
+}
+
+.card-img {
+  width: 350px;
+}
+
+.star {
+  color: red;
+}
+
+.bg-cart {
+  background-color: orange;
+  color: #fff;
+}
+
+.bg-cart:hover {
+  color: #fff;
+}
+
+.bg-buy {
+  background-color: green;
+  color: #fff;
+  padding-right: 29px;
+}
+.bg-buy:hover {
+  color: #fff;
+}
+
+a {
+  text-decoration: none !important;
+}
+img {
+  height: 230px;
+}
+.card {
+  padding-top: 10px;
+  height: 100%;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+.bi {
+  text-align: right;
+  padding-right: 10px;
+  font-size: 26px;
+  cursor: pointer;
+}
+h5 {
+  padding-top: 15px;
+}
+.btn {
+  padding: 5px 25px;
+  margin-top: 10px;
+}
+@media (max-width: 768px) {
+  img {
+    height: 100%;
+  }
+}
+@media (max-width: 575px) {
+  .container {
+    width: 90%;
+  }
+}
+#buy {
+  align-items: center;
+  position: relative;
+  width: 700px;
+  margin-left: 450px;
+  top: 50px;
+  background: bisque;
+  padding: 20px;
+  border-radius: 15px;
+}
+#buy h1 {
+  color: black;
+}
